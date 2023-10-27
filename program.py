@@ -1,9 +1,10 @@
+# import python packages
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 
-# Load the house price prediction dataset
+# Load the dataset
 df = pd.read_csv('house_price_prediction_dataset.csv')
 
 # Clean and prepare the data
